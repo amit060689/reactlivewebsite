@@ -39,7 +39,7 @@ function App () {
       <Navbar title="Softa TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <Routes>
-        <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode}/>} />
+        <Route exact path="/reactlivewebsite" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode}/>} />
         <Route exact path="/about" element={<About/>} />
       </Routes>
     </>
