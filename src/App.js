@@ -36,7 +36,7 @@ function App () {
   }
   return (
     <>
-      <Navbar title="Softa TextUtils" aboutText="About" mode={mode} toggleMode={toggleMode}/>
+      <Navbar title="Softa Textutils" aboutText="About" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <Routes>
         <Route exact path="/reactlivewebsite" element={<TextForm showAlert={showAlert} heading="Enter Text to Analyze Below" mode={mode}/>} />
