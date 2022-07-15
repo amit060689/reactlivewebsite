@@ -1,0 +1,10 @@
+.form-switch .form-check-input {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.my-alert {
+    position: fixed;
+    max-width: 50%;
+    right:0;
+    bottom: 30px;
+}
